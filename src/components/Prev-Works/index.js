@@ -19,7 +19,7 @@ function PrevWorks() {
         {
             name: 'Java Ratings',
             description: 'Java Ratings is an application that empowers coffee connoisseurs around world to impart their wisdom on other within the community. This application allows users to create posts that include their thoughts on certain coffee types, shops, and allows users to upload images.',
-            gitHub: 'https://tylerevans-hash.github.io/java-ratings',
+            gitHub: 'https://github.com/TylerEvans-hash/java-ratings',
             link: 'https://java-ratings-poject-2.herokuapp.com/'
         }
     ]);

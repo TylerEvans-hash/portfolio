@@ -5,6 +5,7 @@ import NavHeader from './components/Nav';
 import About from './components/About';
 import PrevWorks from './components/Prev-Works';
 import Contact from './components/Contact';
+import Footer from './components/Footer';
 
 function App() {
   const [ prevWorksSelected, setPrevWorksSelected ] = useState(false);
@@ -31,6 +32,7 @@ function App() {
           ></Contact>
         )}
       </main>
+      <Footer></Footer>
     </div>
   );
 }
