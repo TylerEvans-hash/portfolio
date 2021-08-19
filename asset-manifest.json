@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.a617e044.chunk.css",
+    "main.js": "/portfolio/static/js/main.d819b2e9.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.d819b2e9.chunk.js.map",
+    "runtime-main.js": "/portfolio/static/js/runtime-main.0988338e.js",
+    "runtime-main.js.map": "/portfolio/static/js/runtime-main.0988338e.js.map",
+    "static/css/2.818011ed.chunk.css": "/portfolio/static/css/2.818011ed.chunk.css",
+    "static/js/2.4c3fc0a6.chunk.js": "/portfolio/static/js/2.4c3fc0a6.chunk.js",
+    "static/js/2.4c3fc0a6.chunk.js.map": "/portfolio/static/js/2.4c3fc0a6.chunk.js.map",
+    "static/js/3.df287860.chunk.js": "/portfolio/static/js/3.df287860.chunk.js",
+    "static/js/3.df287860.chunk.js.map": "/portfolio/static/js/3.df287860.chunk.js.map",
+    "index.html": "/portfolio/index.html",
+    "static/css/2.818011ed.chunk.css.map": "/portfolio/static/css/2.818011ed.chunk.css.map",
+    "static/css/main.a617e044.chunk.css.map": "/portfolio/static/css/main.a617e044.chunk.css.map",
+    "static/js/2.4c3fc0a6.chunk.js.LICENSE.txt": "/portfolio/static/js/2.4c3fc0a6.chunk.js.LICENSE.txt",
+    "static/media/git-it-done.jpg": "/portfolio/static/media/git-it-done.cba36fc7.jpg",
+    "static/media/java-ratings.jpg": "/portfolio/static/media/java-ratings.31be2ffd.jpg",
+    "static/media/note-taker.jpg": "/portfolio/static/media/note-taker.683c7401.jpg",
+    "static/media/pic-of-me.1e78ee1d.jpg": "/portfolio/static/media/pic-of-me.1e78ee1d.jpg",
+    "static/media/pizza-hunt.jpg": "/portfolio/static/media/pizza-hunt.db7d90c9.jpg",
+    "static/media/the-good-blogger.jpg": "/portfolio/static/media/the-good-blogger.e8ea1d50.jpg",
+    "static/media/weather-dashboard.jpg": "/portfolio/static/media/weather-dashboard.d6749fe7.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0988338e.js",
+    "static/css/2.818011ed.chunk.css",
+    "static/js/2.4c3fc0a6.chunk.js",
+    "static/css/main.a617e044.chunk.css",
+    "static/js/main.d819b2e9.chunk.js"
+  ]
+}
