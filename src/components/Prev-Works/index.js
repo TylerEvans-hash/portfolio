@@ -4,6 +4,13 @@ import { Container, Row, Col, Card, Button } from 'react-bootstrap';
 function PrevWorks() {
     const [previousWorks] = useState([
         {
+            name: 'Plan Community',
+            description: 'This application was created to bring attention and help to those struggling with mental illnesses. Users once signed in will recieve a welcome email and will be able make donations toward future events and foundations.',
+            imageName: 'plan-community',
+            gitHub: 'https://github.com/TylerEvans-hash/mental-health-project',
+            link: 'https://plan-community.herokuapp.com/'
+        },
+        {
             name: 'The Good Blogger',
             description: `An CMS-style blog site that allows users to publish articles, blog posts, and their thoughts and opinions.`,
             imageName: 'the-good-blogger',
