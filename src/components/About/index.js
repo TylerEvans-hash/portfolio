@@ -1,8 +1,41 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Container, Row, Col, Image } from 'react-bootstrap';
 import headShot from '../../assets/headshot/pic-of-me.jpg';
 
 function About() {
+    const [languageProf] = useState([
+        {language: 'MySQL'},
+        {language: 'Mongoose ( ODM )'},
+        {language: 'Excel VBA'},
+        {language: 'HTML'},
+        {language: 'CSS'},
+        {language: 'JavaScript'},
+        {language: 'JQuery'},
+        {language: 'React'}
+    ]);
+
+    const [technicalProf] = useState([
+        {tech: 'OOP ( Object-Oriented Programming )'},
+        {tech: 'NPM ( Node Package Manager )'},
+        {tech: 'Agile SCRUM'},
+        {tech: 'Microsoft Suite'},
+        {tech: 'Amazon Redshift DB'},
+        {tech: 'MongoDB Atlas'},
+        {tech: 'PWA ( Progressive Web Applications )'},
+        {tech: 'SPA ( Single Page Applications )'}
+    ]);
+
+    const [techExperience] = useState([
+        {name: 'C++'},
+        {name: 'SalesForce'},
+        {name: 'Zuora'},
+        {name: 'Google Suite'},
+        {name: 'Twilio SendGrid'},
+        {name: 'Paypal API'},
+        {name: 'Adobe Photoshop'},
+        {name: 'Adobe Lightroom'}
+    ]);
+
     return (
         <Container>
             <Row>
@@ -45,27 +78,17 @@ function About() {
                             <Col>
                                 <h6>Language Proficiences:</h6>
                                 <ul>
-                                    <li>MySQL</li>
-                                    <li>Mongoose ( ODM )</li>
-                                    <li>Excel VBA</li>
-                                    <li>HTML</li>
-                                    <li>CSS</li>
-                                    <li>JavaScript</li>
-                                    <li>JQuery</li>
-                                    <li>React</li>                                    
+                                    {languageProf.map((data, i) => (
+                                        <li>{data.language}</li>                                        
+                                    ))}
                                 </ul>
                             </Col>
                             <Col>
                                 <h6>Technical Proficiences:</h6>
                                 <ul>
-                                    <li>OOP ( Object-Oriented Programming )</li>
-                                    <li>NPM ( Node Package Manager )</li>
-                                    <li>Agile SCRUM</li>
-                                    <li>Microsoft Suite</li>                                    
-                                    <li>Amazon Redshift DB</li>
-                                    <li>MongoDB Atlas</li>
-                                    <li>PWA ( Progressive Web Applications )</li>
-                                    <li>SPA ( Single Page Applications )</li>
+                                    {technicalProf.map((data, i) => (
+                                        <li>{data.tech}</li>
+                                    ))}
                                 </ul>
                             </Col>
                         </Row>
@@ -73,11 +96,9 @@ function About() {
                             <Col>
                                 <h6>Experience with:</h6>
                                 <ul>
-                                    <li>SalesForce</li>
-                                    <li>Zuora</li>
-                                    <li>Google Suite</li>
-                                    <li>Twilio SendGrid</li>
-                                    <li>Paypal API</li>
+                                    {techExperience.map((data, i) => (
+                                        <li>{data.name}</li>
+                                    ))}                                    
                                 </ul>
                             </Col>
                         </Row>
