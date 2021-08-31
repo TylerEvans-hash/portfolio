@@ -62,6 +62,7 @@ function PrevWorks() {
                 </Col>
             </Row>
             {previousWorks.map((work, i) => (
+                <Container key={work.imageName}>
                 <Row>
                     <Col>
                         <Card>
@@ -77,6 +78,7 @@ function PrevWorks() {
                         </Card>
                     </Col>
                 </Row>
+                </Container>
             ))}
         </Container>
     );

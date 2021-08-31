@@ -3,10 +3,10 @@ import { Row, Col } from 'react-bootstrap';
 
 function Footer() {
     return (
-        <footer>
+        <footer style={{display: 'flex', justifyContent: 'center', position: 'relative', bottom: 0}}>
             <Row>
-                <Col style={{display: 'flex', justifyContent: 'center', position: 'absolute', bottom: 0}}>
-                    <h3>Made by Tyler Evans</h3>
+                <Col>
+                    <h3>Made by Tyler</h3>
                 </Col>
             </Row>
         </footer>
