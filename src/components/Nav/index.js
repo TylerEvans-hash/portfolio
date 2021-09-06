@@ -1,6 +1,7 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Navbar, Container, NavDropdown, Nav } from 'react-bootstrap';
+import myResume from '../../assets/resume/Tyler-Bradley-Resume.pdf'
 
 function NavHeader(props) {
     const {
@@ -24,6 +25,7 @@ function NavHeader(props) {
                                 <NavDropdown.Item href="https://www.linkedin.com/in/tyler-bradley-0b0946190">LinkedIn</NavDropdown.Item>
                                 <NavDropdown.Divider />
                                 <NavDropdown.Item href="#contact-form" onClick={() => setContactSelected(true)}>Contact Form</NavDropdown.Item>
+                                <NavDropdown.Item href="#resume" onClick={() => {window.open(myResume)}}>Resume</NavDropdown.Item>
                             </NavDropdown>
                         </Nav>
                     </Navbar.Collapse>
