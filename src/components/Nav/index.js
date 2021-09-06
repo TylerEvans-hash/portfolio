@@ -24,7 +24,7 @@ function NavHeader(props) {
                                 <NavDropdown.Item href="mailto:tyler.bradley117@gmail.com">Email</NavDropdown.Item>
                                 <NavDropdown.Item href="https://www.linkedin.com/in/tyler-bradley-0b0946190">LinkedIn</NavDropdown.Item>
                                 <NavDropdown.Divider />
-                                <NavDropdown.Item href="#contact-form" onClick={() => setContactSelected(true)}>Contact Form</NavDropdown.Item>
+                                {/* <NavDropdown.Item href="#contact-form" onClick={() => setContactSelected(true)}>Contact Form</NavDropdown.Item> */}
                                 <NavDropdown.Item href="#resume" onClick={() => {window.open(myResume)}}>Resume</NavDropdown.Item>
                             </NavDropdown>
                         </Nav>
